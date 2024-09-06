@@ -79,3 +79,59 @@ Git con los que hemos trabajando. Puedes utilizar tablas, imágenes, títulos, e
 |4. Git Push --set-upstream . main  | Para subir los archivos al repositorio remoto
 |5. Git Remote -v | Para ver los directorios remotos que disponemos
 |6. Git Clone | Para realizar una clonación de un repositorio remoto en la maquina local.
+
+***
+4.1 – Crea un directorio llamado repo04, esta vez tu decides como lo haces. Es decir, tendrás que
+seleccionar uno de los dos caminos que hemos visto en los dos ejercicios anteriores. Pero si que
+queremos que exista el repositorio el local y en remoto.
+***
+***He creado el directorio a traves de GitHub y he realizado una clonacion después para almacenarlo de forma local y poder trabajar con el.***
+![alt text](image-19.png)
+4.2 – Añade un fichero readme.md vacío al repositorio local, ejecuta los comandos pertinentes para
+realizar un commit y finalmente, sube los cambios al repositorio remoto que tendrá el mismo nombre
+repo04.
+***
+![alt text](image-20.png)
+***He creado el readme.md y he realizado el git add . y git commit -m "texto" para subirlo al repositorio remoto.***
+4.3 – Crea una rama con tu nombre y la fecha actual (por ejemplo en mi caso la rama se llamará
+david02032022) desde la cual editaremos el fichero
+***
+![alt text](image-21.png)
+4.4 – Desde tu rama (david02032022) edita el fichero readme.md de tal forma que quede de la siguiente
+manera:
+***
+![alt text](image-22.png)
+***
+![alt text](image-24.png)
+4.5 – Haz 3 commits desde nuestra rama (david02032022)
+***
+![alt text](image-26.png)
+![alt text](image-25.png)
+![alt text](image-27.png)
+***He realizado varias cambios des de la nueva rama.***
+
+4.6 – En el siguiente orden realiza lo siguiente:
+___
+□ 4.6.1 – Fusiona tu rama con master
+![alt text](image-28.png)
+***Una vez realizo la fusion desde la rama main me aparecen los cambios realizados desde la rama externa en la que los he realizado
+___
+
+□ 4.6.2 – Haz un push hacía la nube
+![alt text](image-29.png)
+*** 
+4.7 – Elimina solamente la rama en local david02032022 ya que si eliminásemos la remota no veríamos la
+rama en remoto.
+***
+![alt text](image-30.png)
+***Con el comando git branch -d (nombre rama) eliminariamos la rama que queremos.
+4.8 - Visualiza el resultado tanto mediante el comando git log --all --oneline -decorate –graph, como
+desde el pluging de VSC
+***
+***git log --all --oneline -decorate –graph***
+![alt text](image-31.png)
+![alt text](image-32.png)
+5.1 – Crea un directorio llamado repo05, esta vez tu decides como lo haces. Es decir, tendrás que
+seleccionar uno de los dos caminos que hemos visto en los dos ejercicios anteriores. Pero si que
+queremos que exista el repositorio el local y en remoto.
+***
