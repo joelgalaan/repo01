@@ -160,3 +160,17 @@ Con el comando git checkout (nombre rama) cambiaremos a la rama que queramos***
 ![alt text](image-41.png)
 ![alt text](image-42.png)
 5.8 – Explica las diferencias entre un merge FF y un merge no FF
+***
+***En el caso del merge Fast Forward seria que la rama  apunta hacia un mismo destino en cambio  merge no FastForward pasa por otras variaciones hasta llegar a un destino final.
+![alt text](image-43.png)
+![alt text](image-44.png)
+EJERCICIO 6: GIT
+□ Haz un alias con la finalidad de que cuando escribamos el comando git log adog nos ejecute lo
+siguiente:
+***
+□ Manera 1: a partir del fichero .gitconfig situado en el directorio ~
+***
+Manera 2: utilizado el comando de alias desde una terminal
+***
+***Para realizar un atajo con alias deberemos utilizar el siguiente comando para hacerlo a traves del terminal.***
+git config --global alias.adog "log --all --decorate --oneline --graph"
