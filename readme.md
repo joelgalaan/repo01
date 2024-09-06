@@ -30,14 +30,52 @@ Puedes añadir fotos o lo que creas conveniente
 □ 1.4 – Intenta subir los ficheros al repositorio remoto mediante al comando git push ¿Se te ocurre que
 está pasando? (si no lo sabes aún no te preocupes)
 ***
-***Utilizo el comando git push --set-upstream . master para hacer el push y almacenar los archivos en el repositorio remoto pero no deja al no tener vinculada la rama.***
+***Utilizo el comando git push --set-upstream . main para hacer el push y almacenar los archivos en el repositorio remoto pero no deja al no tener vinculada la rama por utilizar el nombre master.***
 ![alt text](image-8.png)
 1.5 – Ejecuta el comando git remote –v e investiga porque no nos aparece nada
 ***
-***Ejecutando el comando git remote -v nos aparece esto en la consola ya que el -v es un subcomando desconocido y nos aparecen el resto de comandos que si pueden funcionar***
+***Ejecutando el comando git remote -v nos aparece este error porque no tenemos el repositorio local vinculado de forma remota***
 ![alt text](image-9.png)
 1.6 – Crea un repositorio remoto llamado repo01, asócialo a tu repositorio local
 ***
 ***He creado el repositorio en GitHub para poder subir los archivos al repositorio remoto***
 ![alt text](image-10.png)
 1.7 – Vuelve a ejecutar el comando git remote –v nuevamente y explica el porque ahora si que aparece
+***
+***Ahora al utilizar git remote -v podemos observar como se muestran los dos repositorios creados***
+![alt text](image-11.png)
+1.8 – Sube los cambios que hemos subido al snapshot local (commit) hacía al repositorio remoto
+***Utilizaremos el comand git commit -am "TEXTO" para realizar un commit y un push en un solo comando. 
+![alt text](image-12.png)
+□ 1.9 – Ves al repositorio remoto (en este caso GitHub) y comprueba que se haya realizado
+***
+***Esta todo publicado en el repositorio remoto y local de forma correcta.
+![alt text](image-13.png)
+2.1 - Crea un repositorio llamado repo02 desde GitHub. ¿Sería considerado un repositorio
+local o remoto?
+***
+***Este repositorio es remoto ya que no esta en mi maquina de forma local***
+![alt text](image-14.png)
+2.2 – Posteriormente, clónalo (mediante al comando git clone), lo que realizará una copia
+del repositorio remoto en nuestro equipo, creando con ello un repositorio local a partir del
+repositorio en remoto
+***
+***Utilizando el comando git clone y el enlace del repositorio creamos un clonacion del repositorio a la maquina local.***
+![alt text](image-15.png)
+2-3 - Añade un fichero readme.md y ejecuta los comandos pertinentes hasta llegar a poder
+realizar un commit.
+***
+***He utilizado git add . para añadirlo y a continuación he utilizado el commit -am "Texto" para hacer el push
+![alt text](image-16.png)
+![alt text](image-17.png)
+2.4 – Entra en este manual de Markdown y haz un resumen de los principales comandos de
+Git con los que hemos trabajando. Puedes utilizar tablas, imágenes, títulos, enlaces, etc.
+***
+|[Comandos Utilizados en el ejercicio](https://medium.com/@davidbernalgonzalez/3-markdown-c82d88c1d222) | | | 🤯 |
+|:--- |:---- |:----:| ----:|
+|1. Git Status| Estado de archivos en el git
+|2. Git Add   | Añadir archivos para realizar un commit
+|3. Git Commit -m "Texto"  |  Actualizar archivos para poder realizar un push y poder subirlos a la repositorio remoto
+|4. Git Push --set-upstream . main  | Para subir los archivos al repositorio remoto
+|5. Git Remote -v | Para ver los directorios remotos que disponemos
+|6. Git Clone | Para realizar una clonación de un repositorio remoto en la maquina local.
