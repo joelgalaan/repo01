@@ -188,3 +188,7 @@ Realiza las instrucciones definidas en el siguiente
 ![alt text](image-52.png)
 8![alt text](image-53.png)
 ![alt text](image-54.png)
+***Para poder hacer cambios en este repositorio necesitamos permisos ya que no es nuestro, por lo que hemos de cambiar la dirección del repositorio remoto a nuestro repositorio remoto.Para hacer esto primero deberemos eliminar la dirección de donde clonamos el repositorio utilizando un git remote -v para ver las direciones un git remote rm origin para eliminarlo y añadir el nuevo, para poder utilizar el repositorio añadimos nuestra dirección git remote add origin https://github.com/joelgalaan/PracticaGit.git. y ya podremos trabajar con el.***
+![alt text](image-55.png)
+9![alt text](image-56.png)
+10
