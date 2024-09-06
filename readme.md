@@ -146,3 +146,17 @@ queremos que exista el repositorio el local y en remoto.
 ![alt text](image-36.png)
 ***Con el comando git branch (nombre rama) crearemos la rama.
 Con el comando git checkout (nombre rama) cambiaremos a la rama que queramos***
+5.4 – Haz 3 commits en la rama (david02032022)
+![alt text](image-37.png)
+5.5 – En este caso, antes de hacer el merge sube ambas ramas al repositorio remoto. Verifica que se hayan subido correctamente. Lo hacemos así, ya que cuando realicemos el merge si nos equivocamos podemos volver a clonar el repositorio sin necesidad de tener que volver a comenzar el ejercicio de 0.
+***
+![alt text](image-38.png)
+![alt text](image-39.png)
+5.6 – Basándote en el ejemplo que hemos visto anteriormente, realiza un commit no fast-forward en el que mergearemos la rama david02032022 con main.
+***
+![alt text](image-40.png)
+5.7 – Visualiza el resultado tanto mediante el comando git log --all --oneline --decorate --graph, como desde el pluging de VSC
+***
+![alt text](image-41.png)
+![alt text](image-42.png)
+5.8 – Explica las diferencias entre un merge FF y un merge no FF
