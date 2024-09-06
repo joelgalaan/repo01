@@ -175,3 +175,10 @@ Manera 2: utilizado el comando de alias desde una terminal
 ***Para realizar un atajo con alias deberemos utilizar el siguiente comando para hacerlo a traves del terminal.***
 
 git config --global alias.adog "log --all --decorate --oneline --graph"
+
+Realiza las instrucciones definidas en el siguiente
+***
+![alt text](image-46.png)
+1![alt text](image-45.png)
+2![alt text](image-47.png)
+3![alt text](image-48.png)
