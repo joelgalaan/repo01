@@ -173,4 +173,5 @@ siguiente:
 Manera 2: utilizado el comando de alias desde una terminal
 ***
 ***Para realizar un atajo con alias deberemos utilizar el siguiente comando para hacerlo a traves del terminal.***
+
 git config --global alias.adog "log --all --decorate --oneline --graph"
