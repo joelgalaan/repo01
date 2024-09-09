@@ -165,6 +165,7 @@ Con el comando git checkout (nombre rama) cambiaremos a la rama que queramos***
 ![alt text](image-43.png)
 ![alt text](image-44.png)
 EJERCICIO 6: GIT
+
 □ Haz un alias con la finalidad de que cuando escribamos el comando git log adog nos ejecute lo
 siguiente:
 ***
