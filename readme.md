@@ -192,4 +192,41 @@ Realiza las instrucciones definidas en el siguiente
 ***Para poder hacer cambios en este repositorio necesitamos permisos ya que no es nuestro, por lo que hemos de cambiar la dirección del repositorio remoto a nuestro repositorio remoto.Para hacer esto primero deberemos eliminar la dirección de donde clonamos el repositorio utilizando un git remote -v para ver las direciones un git remote rm origin para eliminarlo y añadir el nuevo, para poder utilizar el repositorio añadimos nuestra dirección git remote add origin https://github.com/joelgalaan/PracticaGit.git. y ya podremos trabajar con el.***
 ![alt text](image-55.png)
 9![alt text](image-56.png)
-10
+10![alt text](image-57.png)
+11![alt text](image-58.png)
+Ejercicios de resolución de conflictos
+***
+1.Crea un repositorio llamado conflictos-
+git y añade un readme.md (puedes marcar la pestaña add readme.md cuando lo creas desde GitHub)
+***
+![alt text](image-59.png)
+![alt text](image-60.png)
+![alt text](image-61.png)
+![alt text](image-62.png)
+No puedo hacer un push ya que los archivos no concuerdan y git me pide que sean iguales para poder hacer actualizaciones en ellos.
+7. Haz un git pull y ves que Git no puede auto-resolver el conflicto. Por lo que
+nos deja la responsabilidad a nosotros como programadores:
+***
+![alt text](image-63.png)
+![alt text](image-64.png)
+
+8. Piensa en que versión quieres, es muy importante estar seguro de lo que
+queremos hacer para no tener dolores de cabeza y no darle a cualquier opción
+sin pensarlo. ¿Qué versión quiero? ¿Con que cambios me quiero quedar? Y
+finalmente, soluciona el conflicto
+***
+▪ Basándote en el ejercicio anterior crea otro fichero (puedes utilizar el mismo) y
+tal y como hemos en el ejemplo anterior vamos a tener conflictos pero esta vez
+muchos más.
+▪ Por ejemplo:
+□ En el repositorio remoto, puedes cambiar todas las letras a por una @.
+![alt text](image-66.png)
+□ En el repositorio local, puedes cambiar todas las letras e por €.
+![alt text](image-65.png)
+▪ Haz que se generen conflictos compáralos analiza que es lo que quieres. 
+En muchas ocasiones necesitaras incluso sentarte con otro compañero para ver conflicto a conflicto que dejáis, etc.
+
+▪ Finalmente, resuélvelos en algunas ocasiones cogiendo los cambios de tu repositorio local y en otras ocasiones los cambios de tu repositorio remoto.
+
+___Es la misma situacion de antes, Git nos dice que debemos tener el la misma version que en el repositorio remoto para que pueda funcionar correctamente por lo que podemos o eliminar la version remota y publicar una nueva o podemos eliminar la local y publicar una nueva version.__
+![alt text](image-67.png)
